@@ -1,6 +1,6 @@
 # ml-ang-codings
 
-# Current Progress
+## Current Progress
 
 - [x] ex1 (Week 2; Due Mar 1, 3:59 PM CST)
 - [ ] ex2 (Week 3; Due Mar 8, 3:59 PM CST)

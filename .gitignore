@@ -2,6 +2,7 @@
 *.code-workspace
 *.txt
 *.pdf
+*.sh
 
 ex2/
 ex3/
