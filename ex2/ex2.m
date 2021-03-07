@@ -55,13 +55,13 @@ pause;
 %  costFunction.m
 
 %  Setup the data matrix appropriately, and add ones for the intercept term
-[m, n] = size(X);
+[m, n] = size(X); % m*n
 
 % Add intercept term to x and X_test
-X = [ones(m, 1) X];
+X = [ones(m, 1) X]; % m*(n+1)
 
 % Initialize fitting parameters
-initial_theta = zeros(n + 1, 1);
+initial_theta = zeros(n + 1, 1); % (n+1)*1
 
 % Compute and display initial cost and gradient
 [cost, grad] = costFunction(initial_theta, X, y);
